@@ -279,6 +279,32 @@ footer { background: var(--black); color: var(--white); padding: 70px clamp(22px
   .footer-bottom { grid-column: 1; }
 }
 
+@media (max-width: 520px) {
+  .site-header { padding-inline: 14px; background: rgba(8,8,8,.9); }
+  .menu-toggle { width: 48px; min-height: 48px; }
+  .hero-copy { padding: 96px 20px 34px; }
+  .hero h1.quote-title { font-size: clamp(43px,11.8vw,52px); line-height: .72; }
+  .hero-lead { margin: 20px 0; line-height: 1.5; }
+  .hero-visual { min-height: 430px; }
+  .hero-image-wrap { margin-top: -34px; }
+  .hero-meta { margin-top: 22px; justify-content: space-between; gap: 12px; }
+  .hero-meta strong { font-size: 29px; }
+  .section { padding: 76px 18px; }
+  .section-heading h2 { font-size: 48px; }
+  .discipline { grid-template-columns: 30px 1fr 20px; gap: 10px; }
+  .discipline h3 { font-size: 34px; }
+  .manifesto-photo { min-height: 410px; }
+  .manifesto-copy, .gallery-copy, .shop-copy { padding: 70px 20px; }
+  .values-grid { grid-template-columns: 1fr; }
+  .gallery-main, .gallery-side { height: 410px !important; }
+  .unit-card { min-height: 350px; padding: 30px 20px; }
+  .unit-card h3 { font-size: 58px; }
+  .shop-visual { min-height: 420px; }
+  .final-cta { padding: 90px 18px; }
+  footer { padding-inline: 20px; }
+  .reveal { opacity: 1; transform: none; transition: none; }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; scroll-behavior: auto !important; }
   .reveal { opacity: 1; transform: none; }
