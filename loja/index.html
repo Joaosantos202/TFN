@@ -1,0 +1,356 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Loja oficial TFN Association — vista a equipe dentro e fora do tatame." />
+    <meta name="theme-color" content="#080808" />
+    <title>Loja oficial | TFN Association</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,500;0,600;0,700;0,800;0,900;1,700;1,800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="loja.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="store-header" id="topo">
+      <a class="brand" href="../" aria-label="Voltar ao site da TFN Association">
+        <img src="../assets/tfn-logo.jpg" alt="Símbolo da TFN Association" />
+        <span><strong>TFN</strong> Association</span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="store-nav">
+        <span></span><span></span><span></span><em>Menu</em>
+      </button>
+
+      <nav class="store-nav" id="store-nav" aria-label="Navegação da loja">
+        <a href="#catalogo">Coleção</a>
+        <a href="#detalhes">Detalhes</a>
+        <a href="#tamanhos">Tamanhos</a>
+        <a href="../">Site TFN</a>
+      </nav>
+
+      <button class="cart-trigger" type="button" aria-controls="cart-drawer" aria-expanded="false">
+        <span>Sacola</span>
+        <strong class="cart-count" aria-label="0 itens na sacola">0</strong>
+      </button>
+    </header>
+
+    <main>
+      <section class="store-hero" aria-labelledby="store-title">
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="hero-copy reveal">
+          <p class="eyebrow"><span></span> Loja oficial TFN</p>
+          <h1 id="store-title">Não é só uma camisa.<br /><em>É a nossa identidade.</em></h1>
+          <p>Identidade de equipe para quem carrega disciplina, respeito e evolução dentro e fora do tatame.</p>
+          <a class="button button-red" href="#produto">Ver produto <span>↓</span></a>
+        </div>
+        <div class="hero-product reveal delay-1">
+          <span class="hero-outline" aria-hidden="true">TFN</span>
+          <div class="hero-image">
+            <img src="../assets/shirt-art.webp" alt="Camisa oficial preta Team Felipe Nascimento" />
+          </div>
+          <div class="hero-price"><small>A partir de</small><strong>R$ 79,90</strong><span>em até 6x sem juros</span></div>
+        </div>
+        <div class="hero-index" aria-hidden="true">01 / 01</div>
+      </section>
+
+      <section class="belt-strip" aria-label="Características da loja">
+        <div><strong>13</strong><span>Produtos oficiais</span></div>
+        <div><strong>02</strong><span>Identidade TFN</span></div>
+        <div><strong>03</strong><span>Checkout próprio</span></div>
+        <div><strong>04</strong><span>Do tatame às ruas</span></div>
+      </section>
+
+      <section class="catalog-section" id="catalogo" aria-labelledby="catalog-title">
+        <div class="catalog-heading reveal">
+          <div>
+            <p class="eyebrow dark"><span></span> Coleção completa</p>
+            <h2 id="catalog-title">Escolha sua<br /><em>bandeira.</em></h2>
+          </div>
+          <p>Todos os modelos da Team Felipe Nascimento reunidos em uma experiência única, com o novo visual da TFN.</p>
+        </div>
+
+        <div class="catalog-grid">
+          <article class="product-card reveal">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/jiu-jitsu-friends.webp" alt="The Jiu-Jitsu Friends Tee" loading="lazy" /></div>
+            <p>Coleção Jiu-Jitsu</p><h3>The Jiu-Jitsu Friends Tee</h3>
+            <div class="card-price"><del>R$ 120,00</del><strong>R$ 95,00</strong></div><small>6x de R$ 15,83 sem juros</small>
+            <button type="button" data-select-product="jiu-jitsu-friends">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-1">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/muay-thai-warrior.webp" alt="Muay Thai Warrior" loading="lazy" /></div>
+            <p>Coleção Muay Thai</p><h3>Muay Thai Warrior</h3>
+            <div class="card-price"><del>R$ 100,00</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="muay-thai-warrior">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-2">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/jus-coffee-energy.webp" alt="JUS Coffee Energy Tee" loading="lazy" /></div>
+            <p>Coleção Lifestyle</p><h3>JUS Coffee Energy Tee</h3>
+            <div class="card-price"><del>R$ 120,00</del><strong>R$ 95,00</strong></div><small>6x de R$ 15,83 sem juros</small>
+            <button type="button" data-select-product="jus-coffee-energy">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/camisa-fn-red.webp" alt="Camisa FN com arte vermelha" loading="lazy" /></div>
+            <p>Coleção FN</p><h3>Camisa FN</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 79,90</strong></div><small>6x de R$ 13,32 sem juros</small>
+            <button type="button" data-select-product="camisa-fn-red">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-1">
+            <div class="product-card-image"><span class="discount-badge">27% OFF</span><img src="../assets/store/projeto-renascer.webp" alt="Camisa Oficial do Projeto Renascer Jiu-Jitsu" loading="lazy" /></div>
+            <p>Projeto Renascer</p><h3>Camisa Oficial do Projeto Renascer Jiu-Jitsu</h3>
+            <div class="card-price"><del>R$ 89,90</del><strong>R$ 64,90</strong></div><small>6x de R$ 10,82 sem juros</small>
+            <button type="button" data-select-product="projeto-renascer">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-2">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/camisa-fn-black.webp" alt="Camisa FN preta" loading="lazy" /></div>
+            <p>Coleção FN</p><h3>Camisa FN</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 79,90</strong></div><small>6x de R$ 13,32 sem juros</small>
+            <button type="button" data-select-product="camisa-fn-black">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/team-felipe-classic.webp" alt="Camisa Team Felipe Nascimento clássica" loading="lazy" /></div>
+            <p>Coleção Team</p><h3>Camisa Team Felipe Nascimento</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 79,90</strong></div><small>6x de R$ 13,32 sem juros</small>
+            <button type="button" data-select-product="team-felipe-classic">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-1">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/brasil-japao.webp" alt="Clássico Brasil x Japão — Gracie vs Kimura" loading="lazy" /></div>
+            <p>Coleção História</p><h3>Clássico Brasil x Japão – Gracie vs Kimura</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="brasil-japao">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-2">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/lifestyle-edition.webp" alt="Jiu-Jitsu Lifestyle Edition" loading="lazy" /></div>
+            <p>Coleção Lifestyle</p><h3>Jiu-Jitsu Lifestyle Edition</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="lifestyle-edition">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/rio-lifestyle-one.webp" alt="Rio Jiu Jitsu Lifestyle modelo um" loading="lazy" /></div>
+            <p>Coleção Rio</p><h3>Rio Jiu Jitsu - LifeStyle</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="rio-lifestyle-one">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-1">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/rio-lifestyle-two.webp" alt="Rio Jiu Jitsu Lifestyle modelo dois" loading="lazy" /></div>
+            <p>Coleção Rio</p><h3>Rio Jiu Jitsu - LifeStyle</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="rio-lifestyle-two">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal delay-2">
+            <div class="product-card-image"><span class="discount-badge">10% OFF</span><img src="../assets/store/warrior-spirit.webp" alt="Warrior Spirit Jiu-Jitsu" loading="lazy" /></div>
+            <p>Coleção Jiu-Jitsu</p><h3>Warrior Spirit - Jiu Jitsu</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 89,90</strong></div><small>6x de R$ 14,98 sem juros</small>
+            <button type="button" data-select-product="warrior-spirit">Escolher modelo <span>→</span></button>
+          </article>
+          <article class="product-card reveal">
+            <div class="product-card-image"><span class="discount-badge">20% OFF</span><img src="../assets/store/team-felipe-signature.webp" alt="Camisa Team Felipe Nascimento assinatura" loading="lazy" /></div>
+            <p>Coleção Team</p><h3>Camisa Team Felipe Nascimento</h3>
+            <div class="card-price"><del>R$ 99,99</del><strong>R$ 79,90</strong></div><small>6x de R$ 13,32 sem juros</small>
+            <button type="button" data-select-product="team-felipe-signature">Escolher modelo <span>→</span></button>
+          </article>
+        </div>
+      </section>
+
+      <section class="product-section" id="produto" aria-labelledby="product-title">
+        <div class="product-gallery no-thumbs reveal">
+          <div class="gallery-main">
+            <span class="gallery-badge">Oficial TFN</span>
+            <img id="main-product-image" src="../assets/shirt-main.webp" alt="Camisa oficial TFN em destaque" />
+          </div>
+        </div>
+
+        <div class="product-info reveal delay-1">
+          <p class="eyebrow dark"><span></span> Vista sua equipe</p>
+          <p class="product-code" id="product-code">TFN · 013</p>
+          <h2 id="product-title">Camisa Team<br />Felipe Nascimento</h2>
+          <div class="product-price">
+            <del id="product-old-price">R$ 99,99</del>
+            <strong id="product-current-price">R$ 79,90</strong>
+            <span id="product-installment">ou 6x de R$ 13,32 sem juros</span>
+          </div>
+          <p class="product-description" id="product-description">Camisa preta com arte frontal oficial Team Felipe Nascimento. Uma peça direta, forte e feita para representar a equipe em qualquer lugar.</p>
+
+          <form class="purchase-form" id="purchase-form" data-product-id="team-felipe-signature">
+            <fieldset>
+              <div class="field-heading">
+                <legend>Escolha o tamanho</legend>
+                <a href="#tamanhos">Ver medidas</a>
+              </div>
+              <div class="sizes" role="radiogroup" aria-label="Tamanho da camisa">
+                <label><input type="radio" name="size" value="P" /><span>P</span></label>
+                <label><input type="radio" name="size" value="M" /><span>M</span></label>
+                <label><input type="radio" name="size" value="G" /><span>G</span></label>
+                <label><input type="radio" name="size" value="GG" /><span>GG</span></label>
+              </div>
+              <p class="form-error" id="size-error" role="alert"></p>
+            </fieldset>
+
+            <div class="purchase-row">
+              <div class="quantity" aria-label="Quantidade">
+                <button type="button" data-quantity="minus" aria-label="Diminuir quantidade">−</button>
+                <output id="quantity-output">1</output>
+                <button type="button" data-quantity="plus" aria-label="Aumentar quantidade">+</button>
+              </div>
+              <button class="add-button" type="submit">Adicionar à sacola <span>→</span></button>
+            </div>
+          </form>
+
+          <div class="product-notes">
+            <div><span>✦</span><p><strong>Checkout próprio TFN</strong>Você confirma endereço e pagamento dentro da nova experiência da loja.</p></div>
+            <div><span>✦</span><p><strong>Compra segura</strong>O cartão é processado pela Stripe e nunca fica armazenado no site.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="details-section" id="detalhes">
+        <div class="detail-statement reveal">
+          <p class="eyebrow light"><span></span> Feita para representar</p>
+          <h2>Do treino ao cotidiano.<br /><em>A mesma postura.</em></h2>
+        </div>
+        <div class="detail-grid">
+          <article class="reveal"><span>01</span><h3>Visual</h3><p>Preto clássico, tipografia limpa e a assinatura Team Felipe Nascimento em destaque.</p></article>
+          <article class="reveal delay-1"><span>02</span><h3>Conforto</h3><p>Modelagem versátil para acompanhar o treino, a torcida e a rotina.</p></article>
+          <article class="reveal delay-2"><span>03</span><h3>Equipe</h3><p>Uma peça oficial para carregar a identidade TFN além do tatame.</p></article>
+        </div>
+      </section>
+
+      <section class="size-section" id="tamanhos" aria-labelledby="size-title">
+        <div>
+          <p class="eyebrow dark"><span></span> Encontre seu tamanho</p>
+          <h2 id="size-title">Encontre o seu<br /><em>tamanho ideal.</em></h2>
+          <p>As medidas podem variar conforme o lote. Confirme o tamanho ideal com a equipe antes de finalizar o pedido.</p>
+        </div>
+        <div class="size-table-wrap">
+          <table>
+            <thead><tr><th>Tamanho</th><th>Tórax</th><th>Comprimento</th></tr></thead>
+            <tbody>
+              <tr><th>P</th><td>Consulte a equipe</td><td>Consulte a equipe</td></tr>
+              <tr><th>M</th><td>Consulte a equipe</td><td>Consulte a equipe</td></tr>
+              <tr><th>G</th><td>Consulte a equipe</td><td>Consulte a equipe</td></tr>
+              <tr><th>GG</th><td>Consulte a equipe</td><td>Consulte a equipe</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="store-cta">
+        <p>TFN Association · Rio de Janeiro</p>
+        <h2>Vista a equipe.<br /><em>Carregue a bandeira.</em></h2>
+        <a class="button button-light" href="#produto">Garantir a minha <span>↑</span></a>
+      </section>
+    </main>
+
+    <footer>
+      <a class="footer-brand" href="../"><img src="../assets/tfn-logo.jpg" alt="" /><span><strong>TFN</strong> Association</span></a>
+      <p>Loja oficial · Team Felipe Nascimento<br />Rua Auriflama · Rio de Janeiro, RJ · CEP 21660-070</p>
+      <div><a href="mailto:teamfelipenascimento@gmail.com">E-mail</a><a href="../">Voltar ao site</a><a href="https://www.instagram.com/teamfelipenascimento/" target="_blank" rel="noreferrer">Instagram ↗</a></div>
+      <span>© 2026 Team Felipe Nascimento · CNPJ 45.007.765/0001-91</span>
+    </footer>
+
+    <div class="cart-overlay" hidden></div>
+    <aside class="cart-drawer" id="cart-drawer" aria-labelledby="cart-title" aria-hidden="true">
+      <div class="cart-head">
+        <div><span>Sua sacola</span><h2 id="cart-title">Pronto para vestir a equipe?</h2></div>
+        <button class="cart-close" type="button" aria-label="Fechar sacola">×</button>
+      </div>
+      <div class="cart-content">
+        <div class="cart-empty">
+          <strong>Sua sacola está vazia.</strong>
+          <p>Escolha o tamanho da camisa oficial e adicione seu pedido.</p>
+          <button type="button" class="cart-continue">Ver produto</button>
+        </div>
+        <div class="cart-items" hidden></div>
+      </div>
+      <div class="cart-summary" hidden>
+        <div><span>Subtotal</span><strong class="cart-total">R$ 0,00</strong></div>
+        <p>Frete e endereço são confirmados no checkout seguro da TFN.</p>
+        <button class="checkout-button" type="button">Continuar para entrega <span>→</span></button>
+      </div>
+    </aside>
+
+    <section class="checkout-shell" id="checkout" aria-labelledby="checkout-title" aria-hidden="true" hidden>
+      <header class="checkout-topbar">
+        <button class="checkout-back" type="button" aria-label="Voltar para a sacola"><span>←</span> Voltar para a sacola</button>
+        <a class="checkout-brand" href="./" aria-label="Loja TFN">
+          <img src="../assets/tfn-logo.jpg" alt="" />
+          <span><strong>TFN</strong> Store</span>
+        </a>
+        <button class="checkout-close" type="button" aria-label="Fechar checkout">×</button>
+      </header>
+
+      <div class="checkout-progress" aria-label="Etapas da compra">
+        <span class="complete"><b>01</b> Sacola</span>
+        <i></i>
+        <span class="active"><b>02</b> Entrega</span>
+        <i></i>
+        <span><b>03</b> Pagamento</span>
+      </div>
+
+      <div class="checkout-layout">
+        <form class="checkout-form" id="checkout-form">
+          <div class="checkout-kicker"><span></span> Checkout TFN</div>
+          <h1 id="checkout-title">Onde seu pedido<br /><em>vai chegar?</em></h1>
+
+          <div class="test-notice" role="status">
+            <strong>Ambiente de teste</strong>
+            <span>Nenhuma cobrança real será feita nesta fase.</span>
+          </div>
+
+          <fieldset>
+            <legend><b>01</b> Contato</legend>
+            <div class="checkout-fields two-columns">
+              <label><span>Nome completo</span><input name="name" autocomplete="name" required minlength="3" /></label>
+              <label><span>E-mail</span><input type="email" name="email" autocomplete="email" required /></label>
+              <label class="field-wide"><span>Telefone</span><input type="tel" name="phone" autocomplete="tel" inputmode="tel" required placeholder="(21) 99999-9999" /></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><b>02</b> Endereço de entrega</legend>
+            <div class="checkout-fields address-grid">
+              <label><span>CEP</span><input name="postalCode" autocomplete="postal-code" inputmode="numeric" required maxlength="9" placeholder="00000-000" /></label>
+              <label class="street-field"><span>Rua</span><input name="street" autocomplete="address-line1" required /></label>
+              <label><span>Número</span><input name="number" autocomplete="address-line2" required /></label>
+              <label><span>Complemento</span><input name="complement" autocomplete="address-line3" placeholder="Opcional" /></label>
+              <label><span>Bairro</span><input name="district" required /></label>
+              <label><span>Cidade</span><input name="city" autocomplete="address-level2" required /></label>
+              <label><span>Estado</span><select name="state" autocomplete="address-level1" required><option value="">UF</option><option>RJ</option><option>SP</option><option>MG</option><option>ES</option><option>PR</option><option>SC</option><option>RS</option><option>BA</option><option>DF</option><option>GO</option><option>PE</option><option>CE</option><option>Outro</option></select></label>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend><b>03</b> Entrega</legend>
+            <label class="shipping-option">
+              <input type="radio" name="shipping" value="standard" checked />
+              <span class="shipping-radio"></span>
+              <span><strong>Entrega padrão TFN</strong><small>Prazo calculado após a configuração do frete</small></span>
+              <b>A calcular</b>
+            </label>
+          </fieldset>
+
+          <label class="checkout-consent"><input type="checkbox" name="terms" required /><span>Concordo com os termos da compra e confirmo que os dados estão corretos.</span></label>
+          <p class="checkout-error" role="alert" aria-live="polite"></p>
+          <button class="payment-button" type="submit"><span>Ir para pagamento seguro</span><b>→</b></button>
+          <div class="secure-line"><span>◆</span> Pagamento processado com segurança pela Stripe</div>
+        </form>
+
+        <aside class="checkout-order" aria-label="Resumo do pedido">
+          <div class="order-heading"><span>Seu pedido</span><strong class="checkout-item-count">0 itens</strong></div>
+          <div class="checkout-items"></div>
+          <dl>
+            <div><dt>Subtotal</dt><dd class="checkout-subtotal">R$ 0,00</dd></div>
+            <div><dt>Entrega</dt><dd>A calcular</dd></div>
+            <div class="order-total"><dt>Total</dt><dd class="checkout-total">R$ 0,00</dd></div>
+          </dl>
+          <p class="order-note">Os preços e o pedido são conferidos novamente no servidor antes do pagamento.</p>
+        </aside>
+      </div>
+    </section>
+
+    <div class="toast" role="status" aria-live="polite"></div>
+    <script src="loja.js"></script>
+  </body>
+</html>
