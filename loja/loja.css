@@ -383,6 +383,7 @@ footer > span { grid-column: 1/-1; padding-top: 20px; border-top: 1px solid rgba
   .detail-statement h2, .size-section h2 { font-size: 50px; }
   .store-cta { min-height: 500px; }
   .store-cta h2 { font-size: 56px; }
+  footer a { min-height: 44px; display: inline-flex; align-items: center; }
   .cart-drawer { padding: 20px 16px; }
   .checkout-topbar { padding-inline: 10px; }
   .checkout-brand span { display: none; }

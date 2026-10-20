@@ -299,9 +299,12 @@ footer { background: var(--black); color: var(--white); padding: 70px clamp(22px
   .gallery-main, .gallery-side { height: 410px !important; }
   .unit-card { min-height: 350px; padding: 30px 20px; }
   .unit-card h3 { font-size: 58px; }
+  .unit-actions { gap: 16px; }
+  .unit-actions a, .gallery-copy a { min-height: 44px; display: inline-flex; align-items: center; }
   .shop-visual { min-height: 420px; }
   .final-cta { padding: 90px 18px; }
   footer { padding-inline: 20px; }
+  .footer-links a, .footer-social a, .footer-bottom a { min-height: 44px; display: flex; align-items: center; }
   .reveal { opacity: 1; transform: none; transition: none; }
 }
 
